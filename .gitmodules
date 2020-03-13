@@ -1,0 +1,3 @@
+[submodule "ARCore-Furniture"]
+	path = ARCore-Furniture
+	url = https://github.com/karshil2309/GoogleSceneForm.git
