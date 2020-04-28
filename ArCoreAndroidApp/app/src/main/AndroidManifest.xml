@@ -16,9 +16,9 @@
         <meta-data android:name="com.google.ar.core" android:value="optional" />
         <activity android:name=".LoginActivity"></activity>
         <activity android:name=".itemsDisplayActivity"></activity>
-        <activity android:name=".MainGridActivity" android:theme="@style/AppTheme"></activity>
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme"></activity>
         <activity android:name=".MainArFragmentActivity" android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".MainActivity" android:theme="@style/AppTheme" >
+        <activity android:name=".MainGridActivity" android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />

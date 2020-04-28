@@ -212,23 +212,13 @@ public class MainArFragmentActivity extends AppCompatActivity {
         ImageView andy = new ImageView(this);
         andy.setImageResource(R.drawable.droid_thumb);
         andy.setContentDescription("andy");
-        andy.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MainArFragmentActivity.this.addObject(Uri.parse("andy_dance.sfb"));
-            }
-        });
+        andy.setOnClickListener(view -> MainArFragmentActivity.this.addObject(Uri.parse("andy_dance.sfb")));
         gallery.addView(andy);
 
         ImageView cabin = new ImageView(this);
         cabin.setImageResource(R.drawable.cabin_thumb);
         cabin.setContentDescription("cabin");
-        cabin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MainArFragmentActivity.this.addObject(Uri.parse("Cabin.sfb"));
-            }
-        });
+        cabin.setOnClickListener(view -> MainArFragmentActivity.this.addObject(Uri.parse("Cabin.sfb")));
         gallery.addView(cabin);
 
         ImageView house = new ImageView(this);
@@ -250,19 +240,14 @@ public class MainArFragmentActivity extends AppCompatActivity {
         // Add image to Linear Layout, for each augumented object eg. Andy, car, ignoo etc
         ImageView andy = new ImageView(this);
         andy.setImageResource(R.drawable.sofa_thumb);
-        andy.setContentDescription("andy");
-        andy.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                MainArFragmentActivity.this.addObject(Uri.parse("andy_dance.sfb"));
-            }
-        });
+        andy.setContentDescription("Sofa 1");
+        andy.setOnClickListener(view -> MainArFragmentActivity.this.addObject(Uri.parse("clock.sfb")));
         gallery.addView(andy);
 
 
         ImageView igloo = new ImageView(this);
-        igloo.setImageResource(R.drawable.igloo_thumb);
-        igloo.setContentDescription("igloo");
+        igloo.setImageResource(R.drawable.sofa1);
+        igloo.setContentDescription("Sofa 2");
         igloo.setOnClickListener(view -> MainArFragmentActivity.this.addObject(Uri.parse("igloo.sfb")));
         gallery.addView(igloo);
     }

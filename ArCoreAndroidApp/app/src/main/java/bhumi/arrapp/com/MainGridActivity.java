@@ -29,9 +29,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainGridActivity extends AppCompatActivity {
 
-    int images[] = {R.drawable.armchair,R.drawable.bed,R.drawable.clock,R.drawable.lamp_thumb,R.drawable.sofa1};
-    String names[] = {"Apple","Banana","Oranges","Kiwi","Watermelon"};
-    String desc[] = {"This is apple","This is banana","This is an orange","This is kiwi","This is watermelon"};
+    int images[] = {R.drawable.armchair,R.drawable.bed,R.drawable.clock,R.drawable.lamp_thumb,R.drawable.sofa1,R.drawable.armchair,R.drawable.armchair,R.drawable.armchair};
+    String names[] = {"Apple","Banana","Oranges","Kiwi","Watermelon","Apple","Apple","Watermelon"};
+    String desc[] = {"This is apple","This is banana","This is an orange","This is kiwi","This is watermelon","This is watermelon","This is watermelon","This is watermelon"};
 
     List<ItemsModel> itemsList = new ArrayList<>();
 
